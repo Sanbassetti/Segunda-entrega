@@ -6,11 +6,14 @@
 
 /* body general */
 body {
-    background-color: #646668;
+    background-color: #373230;
+    background-image: linear-gradient(90deg, #373230 0%, #acaba8 100%);
     font-family: 'Oxygen', sans-serif;
-    color: whitesmoke
+    color: whitesmoke;
+
 }
-.caja{
+
+.caja {
     max-width: 1300px;
     margin: 0 auto;
 }
@@ -25,7 +28,7 @@ body {
 nav {
     display: flex;
     justify-content: space-between;
-    
+
 
 }
 
@@ -54,12 +57,14 @@ nav ul a {
 
 
 }
-a{
+
+a {
     color: #ecaf77;
 }
-a:hover{
-    color:#ecaf77
-    }
+
+a:hover {
+    color: #ecaf77
+}
 
 /* fin nav  */
 
@@ -222,7 +227,7 @@ article h2 {
 .juegos__pc--index p {
     font-size: 18px;
     margin: 20px;
-    
+
 
 }
 
@@ -494,15 +499,16 @@ footer p {
 }
 
 @media screen and (max-width: 576px) {
+
     /* index*/
-    .caja{
+    .caja {
         max-width: 550px;
-    margin: 0 auto;
+        margin: 0 auto;
     }
 
     /*titulo*/
-    .titulo__index{
-        font-size: 60px;  
+    .titulo__index {
+        font-size: 60px;
     }
 
     .noticia1__index {
@@ -589,7 +595,8 @@ footer p {
         height: 400px;
         width: 400px;
     }
-/*
+
+    /*
     /*rev*/
 
     /*nosotros*/
@@ -598,6 +605,7 @@ footer p {
         padding: 15px;
         margin: 15px;
     }
+
     /*nosotros*/
 
 }
