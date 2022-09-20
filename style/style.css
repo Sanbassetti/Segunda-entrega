@@ -202,12 +202,6 @@ article h2 {
 
 /* juegos index*/
 
-.container-propio{
-    padding: 1px;
-}
-.container-propio2{
-    padding: 12px;
-}
 
 .top__juegos--index img {
     height: 300px;
@@ -281,9 +275,7 @@ aside p {
 .publicidad__video--index {
     display: flex;
     justify-content: center;
-    margin: 20px;
-    padding: 20px;
-    border: 1px solid grey;
+    margin: 10px;
 
 }
 
@@ -597,7 +589,7 @@ footer p {
         height: 400px;
         width: 400px;
     }
-
+/*
     /*rev*/
 
     /*nosotros*/
