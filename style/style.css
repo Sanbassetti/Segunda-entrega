@@ -540,19 +540,19 @@ footer p {
 
     /*noticias*/
     .noticia__pc--not img {
-        height: 436px;
-        width: 436px;
+        height: 100%;
+        width: 100%;
 
     }
 
     .noticia__ps5--not img {
-        height: 436px;
-        width: 436px;
+        height: 100%;
+        width: 100%;
     }
 
     .noticia__xbox--not img {
-        height: 436px;
-        width: 436px;
+        height: 100%;
+        width: 100%;
     }
 
     /*juegos*/
